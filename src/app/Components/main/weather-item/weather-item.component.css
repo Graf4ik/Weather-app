@@ -1,9 +1,50 @@
 .weather-item {
   background-color: #ffffff;
-  border: 1px solid #C4C4C4;
-  width: 400px;
-  height: 300px;
+  border: none;
+  width: 370px;
+  height: 220px;
   border-radius: 20px;
+  color: #222222;
+  padding: 10px 30px 0;
+  margin-bottom: 30px;
+  box-shadow: 3px 0px 14px 9px rgba(34, 60, 80, 0.2);
+}
+.weather-item .weather-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #3B80A0;
+}
+.weather-item .weather-item-header .weather-item-logo img {
+  width: 30px;
+  height: 30px;
+  color: #3B80A0;
+  cursor: pointer;
+}
+.weather-item .weather-item-temperature {
+  text-align: center;
+  color: black;
+  font-size: 48px;
+}
+.weather-item .weather-item-info {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-item .weather-item-info .weather-info-wind {
+  margin: 0 20px;
+}
+.weather-item .weather-item-info .weather-info-pressure, .weather-item .weather-item-info .weather-info-wind, .weather-item .weather-item-info .weather-info-precip {
+  background-color: #F7FAFC;
+  border-radius: 10px;
+  width: 200px;
+  height: 80px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+.weather-item .weather-item-info .weather-text {
+  color: #615f5f;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=weather-item.component.css.map */
